@@ -1,11 +1,11 @@
 function analizzaTesto(testo) {
-  
     const senzaSpazi = testo.trim();
     const minuscolo = testo.toLowerCase();
     const numeroCaratteri = senzaSpazi.length;
-    const contieneJS = senzaSpazi.includes('SI') || testo.includes('JavaScript');
+    const contieneJS =minuscolo.includes('si') || minuscolo.includes('javascript');
     const inverti = senzaSpazi.split('').reverse().join('');
-return {
+
+    return {
         originale: testo,
         minuscolo: minuscolo,
         senzaSpazi: senzaSpazi,
@@ -15,7 +15,10 @@ return {
     };
 }
 
-
-const testoInput = "JAVASCRIPT È FANTASTICO";
+const testoInput = " JAVASCRIPT È FANTASTICO ";
 const risultato = analizzaTesto(testoInput);
 console.log(risultato);
+
+
+/* -----------------------------------Esercizio 2-------------------------- */
+
