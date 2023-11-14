@@ -1,0 +1,25 @@
+[
+ {
+    "nome": "hyur",
+   "age":27,
+   "isFemale": false,
+   "medals":[
+    "nuoto",
+    "ciclismo",
+    "pesistica"
+   ]
+ },
+
+{
+    "nome": "Alex",
+    "age":27,
+    "isFemale": false,
+    "medals":[
+     "pesistica"
+    ]
+ }
+
+]
+
+/* usare sempre le virgolette.undefined non ce in jason ma null si perche null e u valore lo usiamo per indicare se e vuota  */
+/* json.parse per trasformare una strinha di jsano in java in un oggetto */
